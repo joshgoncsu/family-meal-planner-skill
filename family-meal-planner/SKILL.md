@@ -52,6 +52,7 @@ Collect the essentials in a short conversation, then fill in the templates:
 6. Weekly rhythm: planning day, shopping day, and when weekly ads come out.
 7. Room-by-room household survey (kitchen, bathrooms, laundry, cleaning, kids) for the monthly stock-up list.
 8. Proteins they grill, smoke or cook often, for the price tiers (see `references/price-tiers.md`).
+9. Freezer space and whether they have a vacuum sealer. This decides how much extra a Stock up deal is worth buying and whether a big family pack makes sense.
 
 Don't ask everything at once if the person is busy. Get enough to plan the first week, then fill the gaps over the next sessions.
 

@@ -23,9 +23,18 @@ The USDA Agricultural Marketing Service publishes weekly surveys of prices adver
 
 Historical issues are listed on USDA's ESMIS site and My Market News (https://mymarketnews.ams.usda.gov/).
 
+Past issues may not be reachable for Claude: often only the current PDF at the URLs above loads. Two ways to get a multi-week baseline:
+
+- **Build it forward (no extra work).** Each week's sale report saves that week's regional rows (date, cut, low, high, weighted average) to a small observations file. After about 12 weeks, rebuild the tiers from it. Until then, use one-week tiers labeled as such.
+- **Download past issues.** The person downloads about 12 weekly PDFs per protein from My Market News and attaches them.
+
 Regions: Northeast (CT, DE, MA, MD, ME, NH, NJ, NY, PA, RI, VT), Southeast, Midwest, South Central, Southwest, Northwest, Alaska, Hawaii. Use the family's region; fall back to the national table when a cut isn't listed regionally.
 
 Rows are split by quality grade (Choice, Prime, branded, ungraded), pack size (regular vs value pack) and production claim (conventional, antibiotic-free, organic). Compare like with like: a family buying conventional Choice steak should use those rows.
+
+**Pack size matters.** Regular and value/family pack averages can differ a lot (often 30% or more for boneless chicken, and ground beef in 1–2 lb vs 2–4 lb packs). Each tier names the pack size it assumes, and the weekly report says which pack an ad price is for, so a regular-pack price isn't judged against value-pack tiers.
+
+Judge pack size case by case: compare the price per pound and whether the pack fits the family's servings. If the family has freezer space, and especially a vacuum sealer (see the household file), a big pack at a Stock up price can still win: plan what the week needs and freeze the rest in meal-sized portions. Without freezer space, a cheaper per-pound family pack that won't be used in time is not a deal.
 
 ### 2. Setting the boundaries
 
@@ -38,6 +47,16 @@ Use about 12 weeks of reports when you can; a single week is a rough first pass 
 Round to store-style prices ($x.49, $x.99) so the table is easy to read in an aisle.
 
 For cuts that are rarely advertised in the region (tri-tip in the Northeast, for example), use national rows and mark the tier low confidence.
+
+Some cuts may have no regional row at all, or only a different form. Seen in Northeast reports:
+
+| Cut | No regional row? | Proxy |
+| --- | --- | --- |
+| Flank steak | Often missing | National row; low confidence |
+| Tri-tip | Often missing | National row; low confidence |
+| Brisket, whole packer | Often missing | National row; Stock up only |
+| Whole pork loin | Missing | Boneless pork loin roast row |
+| Split chicken breast | Only antibiotic-free rows | Use them and say so, or national conventional row |
 
 ### 3. Seafood and items USDA doesn't track
 

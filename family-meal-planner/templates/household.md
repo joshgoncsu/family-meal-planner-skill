@@ -17,6 +17,13 @@
 - Servings: `<number>`
 - Reason: `<e.g. one extra serving for leftover lunches>`
 
+## Freezer and storage
+
+*Decides how much extra to buy on a Stock up deal and whether family packs make sense.*
+
+- Freezer space: `<e.g. fridge freezer only / one chest freezer>`
+- Vacuum sealer: `<yes / no>`
+
 ## Stores
 
 *Role is core, planned stops only, or deals only. See references/stores.md.*
@@ -56,7 +63,7 @@
 
 *Savings needed before a store outside the core set is worth a trip.*
 
-- Threshold: `$10` per trip (default)
+- Threshold: `$10` in the week's savings at that store (default)
 
 ## Pace warning thresholds
 
