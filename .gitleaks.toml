@@ -1,0 +1,35 @@
+title = "family-meal-planner privacy scan"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "us-phone-number"
+description = "US phone number"
+regex = '''\b\(?\d{3}\)?[-. ]\d{3}[-. ]\d{4}\b'''
+tags = ["pii", "phone"]
+
+[[rules]]
+id = "email-address"
+description = "Email address"
+regex = '''[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}'''
+tags = ["pii", "email"]
+
+[[rules]]
+id = "us-street-address"
+description = "US street address (number, street name, street suffix)"
+regex = '''\b\d{1,6}\s+(?:[A-Za-z][A-Za-z]+\s+){1,3}(?:St|Street|Ave|Avenue|Rd|Road|Blvd|Dr|Drive|Ln|Lane|Way|Pkwy|Ct)\b'''
+tags = ["pii", "address"]
+
+[[rules]]
+id = "card-number-like"
+description = "13 to 19 digit card-number-like sequence"
+regex = '''\b\d{13,19}\b'''
+tags = ["pii", "payment"]
+
+[allowlist]
+description = "Files that contain invented data or license text"
+paths = [
+  '''LICENSE''',
+  '''examples/''',
+]
