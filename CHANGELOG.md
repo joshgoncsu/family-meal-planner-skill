@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.2 — 2026-10-29
+
+- Setup asks which items are brand-locked (personal preference) and which are interchangeable.
+- Interchangeable items use the family's current product as the quality benchmark; cheaper alternatives are suggested only at comparable quality, with the reason.
+- Staples and stock-up templates mark brand-locked items with [locked].
+- SKILL.md worth-the-drive wording now matches the household template (the week's savings at that store).
+
 ## 0.1.1 — 2026-10-29
 
 - Price tiers: pack size (regular vs value/family pack) is named on each tier and in the weekly report.

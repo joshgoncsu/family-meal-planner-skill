@@ -53,6 +53,7 @@ Collect the essentials in a short conversation, then fill in the templates:
 7. Room-by-room household survey (kitchen, bathrooms, laundry, cleaning, kids) for the monthly stock-up list.
 8. Proteins they grill, smoke or cook often, for the price tiers (see `references/price-tiers.md`).
 9. Freezer space and whether they have a vacuum sealer. This decides how much extra a Stock up deal is worth buying and whether a big family pack makes sense.
+10. For each staple and stock-up item, whether it is **brand-locked** or **interchangeable**. Brand-locked items are personal preferences (deodorant, toothpaste, a cereal a child insists on). For interchangeable items, the product the family buys now is the quality benchmark.
 
 Don't ask everything at once if the person is busy. Get enough to plan the first week, then fill the gaps over the next sessions.
 
@@ -98,11 +99,13 @@ Plan dinners first, then breakfasts, lunches and snacks from the staples list.
 1. Collect every ingredient from the plan, merge duplicates, and scale to the portions.
 2. Add staples marked "weekly" in `staples.md`, plus "we're out of" requests and anything marked low. "When low" staples, spices and pantry items go on the list only after someone marks them low. Merge an out-of request with the same weekly staple instead of listing it twice.
 3. Assign each item to its default store from `staples.md`. Change a default only when the price book shows a lower unit price elsewhere for the same product.
-4. **Worth-the-drive rule.** Add a stop at a store outside the core set only when the savings there clear the family's threshold (start at $10 a trip) or the store is already on the route. Measure savings against the core store's regular price (from the price book, or the tier's Good line when there is no price book). A store that wins only one or two small items is shown as optional, not added to the trip. A stop that clears the threshold goes on the list as its own store section with the sale's end date.
+4. **Worth-the-drive rule.** Add a stop at a store outside the core set only when the savings there clear the family's threshold (start at $10 in the week's savings at that store) or the store is already on the route. Measure savings against the core store's regular price (from the price book, or the tier's Good line when there is no price book). A store that wins only one or two small items is shown as optional, not added to the trip. A stop that clears the threshold goes on the list as its own store section with the sale's end date.
 5. Group by store, then by aisle in walking order (use category order until the family gives a store's aisle order). Show each store's estimated subtotal and the week's total against the weekly budget.
 6. Mark items that need a loyalty card or a clipped coupon.
 
 Compare household items by unit price (per sheet, per load, per ounce), not by package price.
+
+**Brand-locked vs interchangeable.** Never swap a brand-locked product; only point out a cheaper store or a sale for that same product. For an interchangeable item, suggest a lower-cost alternative only when its quality matches the family's benchmark product (for example, no single-ply toilet paper against a premium two-ply), and say in one line why it compares. The family decides; record a switch only after they accept it.
 
 ### 4. Shop once
 

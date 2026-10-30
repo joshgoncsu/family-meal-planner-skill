@@ -1,6 +1,6 @@
 # Staples
 
-*Items bought every week. Each item goes to its default store unless the price book shows a lower unit price elsewhere.*
+*Items bought every week. Each item goes to its default store unless the price book shows a lower unit price elsewhere. Mark brand-locked items with [locked]; for the rest, the product named is the quality benchmark.*
 
 ## Breakfasts
 
