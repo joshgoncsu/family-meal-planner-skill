@@ -48,12 +48,23 @@ When a line is ambiguous (a "kitchen" item that could be a gadget or a cleaner),
 Each priced grocery or household line adds a record:
 
 ```
-| Date | Store | Product | Size | Price | Unit price | Unit | On sale? |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 2026-11-02 | Discount grocer | Whole milk | 1 gal | $3.19 | $3.19 | gal | No |
+| Date | Store | Product | Size | Regular price | Price paid | Deal | Unit price | Unit |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-11-02 | Discount grocer | Whole milk | 1 gal | $3.49 | $3.19 | Store sale | $3.19 | gal |
 ```
 
 Use the price paid in the store. Delivery-app prices are often higher than shelf prices and shouldn't set store defaults.
+
+Fill in the columns this way:
+
+- **Size, unit price and unit**: record them only when the receipt shows them. Digital receipts from apps and online orders usually do. Paper receipts often don't, and that's fine. Don't ask the family for extra photos of labels or packages.
+- **Regular price**: the shelf price before any sale or loyalty savings. Use it only when the receipt or the store shows it. If neither does, leave it blank rather than guessing.
+- **Price paid**: what was paid after all savings.
+- **Deal**: the discount type. Use one of: loyalty card, digital coupon, store sale, rollback, instant savings, or none.
+
+Record the regular price and the deal type beside the price paid. A sale price on its own can look like the normal price, and that hides price creep when the sale ends.
+
+Unit price matters before buying, when choosing a store for an item. It matters less after the trip, so don't work it out for logging alone. For a store-brand item, look up its size once on the store's product page when a comparison needs it.
 
 The price book powers:
 - Store defaults: the store with the lowest regular unit price for a product.
@@ -63,4 +74,4 @@ The price book powers:
 
 ## Privacy
 
-Never record payment card digits, loyalty numbers, names or addresses printed on receipts. Keep only store, date, items, prices and totals.
+Never record payment card digits, authorization or register numbers, loyalty numbers, names or addresses printed on receipts. Keep only store, date, items, prices and totals.

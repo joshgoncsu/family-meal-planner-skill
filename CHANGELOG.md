@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.3 — 2026-11-01
+
+- Receipts: record size and unit price only when the receipt shows them; paper receipts often don't, and no extra photos are needed.
+- Price book: new Regular price and Deal columns beside Price paid, so sale prices aren't mistaken for normal prices when spotting price creep.
+
 ## 0.1.2 — 2026-10-29
 
 - Setup asks which items are brand-locked (personal preference) and which are interchangeable.
