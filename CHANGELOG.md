@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.4 — 2026-11-09
+
+- Receipts: every line is marked planned or unplanned, including non-essential and holiday lines. The budget view shows the unplanned share, and the monthly summary tracks it with its trend. No recommendation before four weeks of data.
+- Recipes: each recipe is kept in two places. Ingredients and amounts live with the grocery list (side amounts per serving). Steps, source link, prep time and notes live in one shared recipe book both parents can edit. Boxed products and plain fruit or snacks get no recipe.
+- Receipt review: Claude pre-fills a line only when fairly sure or when the product is in the category map, and asks about the rest, unsure lines first. The family reviews line by line, and the budget counts a receipt only after it is reviewed. Every fix is saved to the map, and a map entry beats Claude's guess. Long app orders can be several screenshots on one receipt. New `templates/category-map.md`.
+- New week: it starts empty, with past weeks kept as history. Last week's uncooked dinners that were bought and are still in the house carry over, with "already have" marks. Dinners not shopped for are offered once as optional picks. Either parent can start the week, with a warning that the plan clears; otherwise the planner moves on by itself.
+- Short display names: the full branded product name stays as the saved item for pricing and receipt matching. Long or branded items get a short name for lists. Staples and stock-up templates have a short name column.
+- At-home list: one combined list with a Have / Low status per item, one line each, grouped by household shelf with "Running low" on top. A Low item goes on the week's list, and buying it sets it back to Have. Staples never auto-hide from the grocery list. Staples template has a shelf column.
+
 ## 0.1.3 — 2026-11-01
 
 - Receipts: record size and unit price only when the receipt shows them; paper receipts often don't, and no extra photos are needed.

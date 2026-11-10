@@ -31,12 +31,12 @@
 
 ## Weekly staples
 
-| Item | Qty | Buy | Default store | Aisle |
-| --- | --- | --- | --- | --- |
-| Whole milk | 2 gal | weekly | Discount grocer | Dairy |
-| Bananas | 1 bunch | weekly | Discount grocer | Produce |
-| Flour tortillas | 1 pack | weekly | Discount grocer | Bakery |
-| Shredded cheddar | 2 lb | when low | Warehouse club | Dairy |
-| Jasmine rice | 10 lb | when low | Warehouse club | Grains |
-| Olive oil | 1 large bottle | when low | Warehouse club | Oils |
-| Chicken broth | 2 cartons | when low | Discount grocer | Soups and broths |
+| Item (full name) | Short name | Qty | Buy | Default store | Aisle | Shelf at home |
+| --- | --- | --- | --- | --- | --- | --- |
+| Whole milk | Milk | 2 gal | weekly | Discount grocer | Dairy | Fridge and freezer |
+| Bananas | Bananas | 1 bunch | weekly | Discount grocer | Produce | Fridge and freezer |
+| Flour tortillas | Tortillas | 1 pack | weekly | Discount grocer | Bakery | Baking and broth |
+| Shredded cheddar | Cheddar | 2 lb | when low | Warehouse club | Dairy | Fridge and freezer |
+| Jasmine rice | Rice | 10 lb | when low | Warehouse club | Grains | Baking and broth |
+| Extra virgin olive oil, large bottle | Olive oil | 1 large bottle | when low | Warehouse club | Oils | Oils and sauces |
+| Low-sodium chicken broth, 32 oz carton | Chicken broth | 2 cartons | when low | Discount grocer | Soups and broths | Baking and broth |

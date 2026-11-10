@@ -9,7 +9,7 @@ It works best for families who shop at several stores, buy online often, and wan
 - **Weekly meal plans:** dinners, breakfasts, school and work lunches, with at least one kid-approved side every night.
 - **Store-split grocery lists:** each item goes to its cheapest regular store. A worth-the-drive rule keeps one-item detours off the route.
 - **Meat sale reports:** weekly ads rated against Stock up / Good / Normal / Skip price tiers built from USDA weekly retail ad surveys.
-- **Receipt tracking:** every line sorted into groceries, household essentials or non-essential, with snacks tracked separately. A price book is built from what you actually paid.
+- **Receipt tracking:** every line sorted into groceries, household essentials or non-essential, marked planned or unplanned, and reviewed by the family before it counts. Snacks are tracked separately. A price book is built from what you actually paid.
 - **Budget pace warnings** before the month runs over, with separate holiday lines.
 - **Monthly one-page summary:** recommendations only after about four weeks of data.
 - **Pantry photo to meal ideas.**
@@ -34,6 +34,7 @@ Ask Claude something like "Help me set up weekly meal planning for my family." T
 | `meals.md` | Dinner rotation and side list |
 | `staples.md` | Breakfasts, lunches, snacks |
 | `stock-up.md` | Monthly household and paper goods |
+| `category-map.md` | Product → category answers from receipt review |
 | `price-tiers.md` | Tracked cuts and tier prices |
 | `price-book.md` | Prices paid, from receipts |
 | `decisions.md` | Recommendations and outcomes |

@@ -14,6 +14,7 @@ Produce it on the first weekend of the month, in this order:
 
 1. **Headline**: spending vs budget for groceries plus household essentials, with the holiday line if active.
 2. **Split**: groceries, household essentials, non-essential, each by store.
+   **Unplanned share**: unplanned spending (all categories, including non-essential and holiday lines) as a share of total spending, with its trend over recent months.
 3. **Trips**: planned shops per week and midweek exceptions (count and what they were for).
 4. **Online orders**: order count and the share that were household items available on the warehouse-club list.
 5. **Snacks**: snack share of grocery spending, the weekly trend, and the bulk vs single-serve split.
@@ -21,6 +22,8 @@ Produce it on the first weekend of the month, in this order:
 7. **Meals**: cooked, skipped and tossed counts; any meal tossed twice.
 8. **Receipts captured**: trips with a receipt vs trips known from other evidence.
 9. **One recommendation**, if the evidence supports one (below).
+
+The budget view shows the unplanned share too. Don't recommend anything from it before about four weeks of data.
 
 Keep it to one screen on a phone. Numbers with units, no filler.
 
@@ -39,6 +42,7 @@ Signals worth watching:
 | Signal | Possible finding |
 | --- | --- |
 | Snack share | Single-serve packs at a high-price store |
+| Unplanned share | Off-list buying concentrated in one store or category |
 | Tossed meals | Portions too large for one meal |
 | Store drift | Small top-up trips at a conventional supermarket |
 | Price creep | A staple is now cheaper at another core store |

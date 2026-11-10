@@ -1,6 +1,6 @@
 # Receipts, order histories and the price book
 
-Read every receipt line by line. Each line gets one category, groceries get a subcategory, and each priced line updates the price book. This is what makes the budget and the monthly trends work, so accuracy matters more than speed.
+Read every receipt line by line. Each line gets one category, groceries get a subcategory, every line is marked planned or unplanned, and each priced line updates the price book. This is what makes the budget and the monthly trends work, so accuracy matters more than speed.
 
 ## Inputs
 
@@ -10,6 +10,8 @@ Read every receipt line by line. Each line gets one category, groceries get a su
 | Warehouse club or big-box app | Screenshot of the digital receipt |
 | Online grocery order | Order confirmation or screenshot |
 | Amazon | Monthly paste of order history (each adult's account) |
+
+A long app order can be several screenshots. Attach them all to one receipt and read them together.
 
 Record per receipt: store, location if shown, date, subtotal, tax, total, whether it was a planned shop or an exception, and the line items.
 
@@ -32,7 +34,17 @@ Record per receipt: store, location if shown, date, subtotal, tax, total, whethe
 
 Grocery subcategories (track at least these): snacks, school lunch items, work lunch items, beverages, meat and seafood, produce, dairy, bakery, frozen, pantry. Families can add their own (for example, a parent's snack-style lunch items, so they aren't counted as kids' snacks).
 
-When a line is ambiguous (a "kitchen" item that could be a gadget or a cleaner), ask once, then store the answer in a category map so the same product is never asked about again.
+## Planned or unplanned
+
+Mark every line **planned** (on that week's list, or a known stock-up item) or **unplanned**, alongside its category. Unplanned covers all spending, including non-essential and holiday lines. Categories alone don't show impulse or off-list buying; this does.
+
+## Review and the category map
+
+1. **Pre-fill carefully.** Pre-fill a line's category and planned/unplanned only when you're fairly confident or the product is already in the category map (`templates/category-map.md`). Otherwise leave the line blank with a short question. List the unsure lines first.
+2. **The family reviews.** They go line by line, fix anything wrong, and mark the receipt reviewed. The budget counts a receipt only after it's reviewed.
+3. **Save every fix.** Each correction goes into the category map as product → category, so each product is asked about once and pre-filled the same way later. A map entry always beats your own guess.
+
+When a line is ambiguous (a "kitchen" item that could be a gadget or a cleaner), ask once. The answer goes in the map.
 
 **Snacks**: chips, crackers, cookies, fruit snacks, granola and protein bars, single-serve packs, candy, and convenience-store snack runs. Count lunchbox snacks as snacks, and record whether they were bulk or single-serve; that split is usually where the savings are.
 

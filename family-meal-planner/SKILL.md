@@ -22,9 +22,10 @@ This skill holds the method only. Each family's details live in their own files,
 | File | Holds |
 | --- | --- |
 | `household.md` | People and ages, portion size, stores and loyalty cards, budget, weekly rhythm |
-| `meals.md` | Dinner rotation, recipes and links, side list with kid-approved flags |
+| `meals.md` | Dinner rotation, ingredients and amounts, side list with kid-approved flags, and the shared recipe book |
 | `staples.md` | Breakfasts, lunches, snacks, default store per item |
 | `stock-up.md` | Monthly household and paper goods list |
+| `category-map.md` | Product → category answers from receipt review, so each product is asked about once |
 | `price-tiers.md` | Tracked meat and seafood cuts with tier prices |
 | `price-book.md` | Prices actually paid, from receipts |
 | `decisions.md` | Recommendations made, the family's answer, and the result |
@@ -39,6 +40,15 @@ If these files don't exist yet, run first-time setup (below) before planning. Re
 - **Same price at several stores:** pick the core store already on the route.
 
 Never copy a family's names, address, receipts or prices paid into this skill's own folder or any public repository.
+
+## Recipes: two places, one owner each
+
+Keep each recipe in two places so nothing is edited twice.
+
+- **Ingredients and amounts** live with whatever builds the grocery list (`meals.md`, or the planner's own data). Side amounts are per serving. Claude owns these.
+- **Steps, source link, prep time and notes** live in one shared recipe book, with one section per main and per cooked side. Both parents can edit it.
+
+Each meal and side links to its recipe book section. For a new recipe, Claude drafts the steps and the family corrects them. Boxed products (boxed mac and cheese, rice mixes) and plain fruit or snacks get no recipe.
 
 ## First-time setup
 
@@ -94,6 +104,15 @@ Plan dinners first, then breakfasts, lunches and snacks from the staples list.
 - **Check the budget.** Estimate the week's cost from the price book. If the month is running over pace, lean on cheaper meals and on what's already in the house.
 - **Use what's left over.** Last week's cooked-check log shows what went unused or was tossed. Plan around leftovers and adjust portions for meals that are often tossed.
 
+#### Starting a new week
+
+The new week begins empty. Past weeks stay as history for variety checks and staples. Two things carry over from last week's uncooked dinners:
+
+- **Bought dinners come along automatically.** A dinner counts as bought when every meat ingredient is still on hand, plus at least 2 other key ingredients (produce, dairy, bread, frozen; pantry staples don't count), or all of them if the meal has fewer. A meatless meal needs 3. Ingredients of a carried dinner that are still on hand are marked "already have", so they aren't bought again.
+- **Dinners not shopped for are offered once** as optional picks, leaning toward clearing them. If the family skips them, drop them.
+
+Either parent can start the next week. Warn first that the week's plan clears. If nobody does, the planner moves to the current week on its own.
+
 ### 3. Build the list and split it by store
 
 1. Collect every ingredient from the plan, merge duplicates, and scale to the portions.
@@ -102,10 +121,22 @@ Plan dinners first, then breakfasts, lunches and snacks from the staples list.
 4. **Worth-the-drive rule.** Add a stop at a store outside the core set only when the savings there clear the family's threshold (start at $10 in the week's savings at that store) or the store is already on the route. Measure savings against the core store's regular price (from the price book, or the tier's Good line when there is no price book). A store that wins only one or two small items is shown as optional, not added to the trip. A stop that clears the threshold goes on the list as its own store section with the sale's end date.
 5. Group by store, then by aisle in walking order (use category order until the family gives a store's aisle order). Show each store's estimated subtotal and the week's total against the weekly budget.
 6. Mark items that need a loyalty card or a clipped coupon.
+7. Show each saved item by its short display name ("Trash bags", "Toothpaste"). The full product name with brand stays as the saved item, because pricing and receipt matching use it.
 
 Compare household items by unit price (per sheet, per load, per ounce), not by package price.
 
 **Brand-locked vs interchangeable.** Never swap a brand-locked product; only point out a cheaper store or a sale for that same product. For an interchangeable item, suggest a lower-cost alternative only when its quality matches the family's benchmark product (for example, no single-ply toilet paper against a premium two-ply), and say in one line why it compares. The family decides; record a switch only after they accept it.
+
+#### At-home list
+
+Keep one combined list of what's in the house, not separate pantry and fridge lists.
+
+- Each item has one line and one status: **Have** or **Low**.
+- Group by household shelf, not store aisle: fridge and freezer, spices, oils and sauces, baking and broth, snacks and drinks, paper and wraps, cleaning and laundry, bathroom and kids' care.
+- Show shelves closed. Put "Running low" on top, always open.
+- A Low item goes on that week's shopping list. Buying it sets it back to Have.
+- Staples never hide from the grocery list on their own. The planner tracks no quantities at home, so only someone marking an item Low or Have changes it.
+- Use short display names here too (see step 3, item 7).
 
 ### 4. Shop once
 
@@ -116,7 +147,8 @@ If the family wants carts filled online, use the store's saved lists or reorder 
 ### 5. Cooked check and receipts
 
 - At the end of the week, record each planned dinner as cooked, skipped or tossed. After a new meal is cooked, ask whether it's a keeper and add it to the rotation if so.
-- Read receipts with `references/receipts.md`: every line gets one category (groceries, household essentials, non-essential), groceries get subcategories such as snacks, and each line updates the price book.
+- Read receipts with `references/receipts.md`: every line gets one category (groceries, household essentials, non-essential), groceries get subcategories such as snacks, and each line is marked planned or unplanned. Each line updates the price book.
+- Claude pre-fills only lines it is fairly sure of, or that are already in `category-map.md`, and asks about the rest. The family reviews line by line and marks the receipt reviewed. The budget counts a receipt only after that. Every fix is saved to the category map.
 
 ## Budget and pace warnings
 
@@ -181,6 +213,6 @@ Reminders: <prep the night before, sale end dates>
 | File | Read when |
 | --- | --- |
 | `references/price-tiers.md` | Building or updating tiers, writing the sale report |
-| `references/receipts.md` | Reading receipts or order histories, the price book |
+| `references/receipts.md` | Reading and reviewing receipts or order histories, the category map, planned vs unplanned, the price book |
 | `references/stores.md` | Adding a store, ad cycles, loyalty pricing |
 | `references/reviews.md` | Setting a budget, the monthly summary, recommendations |
