@@ -24,6 +24,12 @@
 - Freezer space: `<e.g. fridge freezer only / one chest freezer>`
 - Vacuum sealer: `<yes / no>`
 
+## Shared page
+
+*Skip this if the family doesn't use one. Name the address here and nowhere else; everything else refers to it. If the page is replaced, update every scheduled task prompt and runbook the same day.*
+
+- Address: `<address>`
+
 ## Stores
 
 *Role is core, planned stops only, or deals only. See references/stores.md.*
@@ -38,19 +44,19 @@
 
 - Monthly target: `$<amount>`
 
-*Holiday and hosting lines, agreed in advance.*
+*Holiday and hosting lines, agreed in advance. Write "show only" for a line with no target and no warning.*
 
 | Month | Amount | Notes |
 | --- | --- | --- |
-| `<month>` | `$<amount>` | `<notes>` |
+| `<month>` | `$<amount, or show only>` | `<notes>` |
 
-## Weekly rhythm
+## Rhythm
 
-*When each step happens each week.*
+*The sale report and receipts follow the calendar. Planning and cooked checks follow the meals, not a day: plan, shop, check meals off, and plan again when they run out. Note the days the family usually plans and shops, as an example only.*
 
-| Day | What happens: sale report, planning, shopping, cooked check |
+| When | What happens: sale report, planning, shopping, cooked check |
 | --- | --- |
-| `<day>` | `<step>` |
+| `<day or trigger>` | `<step>` |
 
 ## Family input rules
 

@@ -33,14 +33,16 @@
 | November | $150 | Thanksgiving hosting |
 | December | $200 | Holiday baking and gatherings |
 
-## Weekly rhythm
+## Rhythm
 
-| Day | What happens: sale report, planning, shopping, cooked check |
+*An example rhythm, not a rule. The family plans when the meals run out.*
+
+| When | What happens: sale report, planning, shopping, cooked check |
 | --- | --- |
 | Thursday | Sale report: check the supermarket's weekly ad for pork and chicken |
-| Friday | Cooked check: log what was cooked, skipped or tossed |
-| Saturday evening | Planning for Monday to Saturday |
-| Sunday | One planned shop at the warehouse club and discount grocer |
+| Each night | Check the dinner off as cooked, skipped or tossed |
+| When the meals run out (usually Saturday evening) | Clear the plan and plan a new set of dinners |
+| The day after planning (usually Sunday) | One planned shop at the warehouse club and discount grocer |
 
 ## Family input rules
 
@@ -49,7 +51,7 @@
 
 ## Worth-the-drive threshold
 
-- Threshold: $10 per trip
+- Threshold: $10 in savings at that store
 
 ## Pace warning thresholds
 

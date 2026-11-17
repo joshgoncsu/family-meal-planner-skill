@@ -1,21 +1,20 @@
-# Example week: the Riveras (Springfield)
+# Example plan: the Riveras (Springfield)
 
-*Fictional example family. Prices are invented. The weekly budget is the monthly target of $1,800 divided by about 4.33 weeks.*
+*Fictional example family. Prices are invented. The weekly budget is the monthly target of $1,800 divided by about 4.33 weeks. This plan was made on a Saturday evening and shopped on Sunday, the family's usual rhythm. Dinners are cooked in any order, and the family plans again when they run out.*
 
-## Weekly plan
+## Plan
 
 ```
-Week of 2026-11-02 · est. $395 of $415
-Mon  Turkey chili — ground turkey · cornbread · green beans (kids: mild cheddar and tortilla chips)   [prep: thaw turkey Sunday night]
-Tue  Sheet-pan sausage and peppers — smoked sausage · roasted potatoes · roasted peppers and onions (kids: raw carrot sticks)
-Wed  Baked ziti — ground beef · ziti · steamed broccoli (kids: garlic bread)   [prep: assemble in the morning]
-Thu  Pork stir-fry — pork loin strips · jasmine rice · stir-fried broccoli and carrots (kids: raw bell pepper strips with ranch)   [prep: slice pork in the morning]
-Fri  Grilled chicken thighs — chicken thighs · baked potatoes · green beans (kids: corn on the cob)   [prep: marinate Thursday night]
-Sat  Shrimp tacos — shrimp, 16/20 · tortillas · roasted peppers and onions (kids: plain cheese quesadilla)   [prep: thaw shrimp Friday night]
-Sun  No dinner planned (shop day)
-Lunches: Ana and Marco eat leftovers Tue to Thu from the five-serving plan; Leo and Mia pack a sandwich, fruit and a snack
-Breakfasts: oatmeal Mon to Wed; eggs and toast Thu to Sat; yogurt cups daily
-Notes: Mia's pancake request saved for a lower-cost week (needs recipe details); no vetoes this week; the sausage is on sale at the neighborhood supermarket, so the Tuesday meal was built around it
+Plan started 2026-11-01 · 6 dinners · est. $395 · weekly budget $415
+1  Turkey chili — ground turkey · cornbread · green beans (kids: mild cheddar and tortilla chips)   [prep: thaw turkey the night before]
+2  Sheet-pan sausage and peppers — smoked sausage · roasted potatoes · roasted peppers and onions (kids: raw carrot sticks)
+3  Baked ziti — ground beef · ziti · steamed broccoli (kids: garlic bread)   [prep: assemble in the morning]
+4  Pork stir-fry — pork loin strips · jasmine rice · stir-fried broccoli and carrots (kids: raw bell pepper strips with ranch)   [prep: slice pork in the morning]
+5  Grilled chicken thighs — chicken thighs · baked potatoes · green beans (kids: corn on the cob)   [prep: marinate the night before]
+6  Shrimp tacos — shrimp, 16/20 · tortillas · roasted peppers and onions (kids: plain cheese quesadilla)   [prep: thaw shrimp the night before]
+Lunches: Ana and Marco eat leftovers three days from the five-serving plan; Leo and Mia pack a sandwich, fruit and a snack
+Breakfasts: oatmeal three days; eggs and toast three days; yogurt cups daily
+Notes: Mia's pancake request saved for a lower-cost week (needs recipe details); no vetoes this week; the sausage is on sale at the neighborhood supermarket, so meal 2 was built around it
 ```
 
 ## Store-split list

@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.1.5 — 2026-11-16
+
+- Planning is no longer tied to a day. The loop is: plan a set of meals, shop, check meals off as cooked, and when they run out, clear the plan and make a new one. The sale report, receipts and budget keep their calendar timing. Saturday plan and Sunday shop remain as an example rhythm only. The numbered loop at the top of SKILL.md now matches the section order. The example family's plan and rhythm match.
+- Recipe auto-fill: a meal added with a link and no ingredients is filled in by a scheduled run (ingredients sized to the household, prep time, draft steps). It never overwrites family entries, and a blocked site is marked "couldn't read the link".
+- Planning fills a meal's side slots from its saved usual sides. Later edits don't change dinners already planned.
+- Importing a voice-assistant shopping list: items are checked against receipts, what's at home and the current list. Items added in the last day count as real needs.
+- At-home list: the person picks the shelf and the store aisle is derived from it.
+- Shared page: its address lives in one place (`household.md`). Buttons that need the owner's computer are queued requests. If the page is replaced, update every scheduled task and runbook the same day and retire the old page.
+- Receipts: long receipts are read in small groups, retried once on a service error, and checked against the printed subtotal.
+- Reviews: budget totals are computed live from reviewed receipts by receipt date, with no separate stored history total. Holiday lines can be show-only, with no target and no warning.
+- "Shop once" no longer allows filling a cart. The planner hands the family a list per store and never signs in to a store account or checks out.
+- Renamed the monthly list to "monthly household list" (`templates/household-list.md`, was `stock-up.md`), so "Stock up" means only the price tier.
+- SKILL.md frontmatter has a version field.
+- Privacy scan now runs on every push and pull request through GitHub Actions.
+- Follow-up wording fixes: the example's worth-the-drive threshold matches the template (savings at that store), reviews say "extra trips" (any trip after a plan's main shop) and count trips per calendar week, and the skill description no longer assumes a fixed week.
 ## 0.1.4 — 2026-11-09
 
 - Receipts: every line is marked planned or unplanned, including non-essential and holiday lines. The budget view shows the unplanned share, and the monthly summary tracks it with its trend. No recommendation before four weeks of data.
