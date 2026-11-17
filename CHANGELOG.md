@@ -14,6 +14,7 @@
 - Renamed the monthly list to "monthly household list" (`templates/household-list.md`, was `stock-up.md`), so "Stock up" means only the price tier.
 - SKILL.md frontmatter has a version field.
 - Privacy scan now runs on every push and pull request through GitHub Actions.
+- Follow-up wording fixes: the example's worth-the-drive threshold matches the template (savings at that store), reviews say "extra trips" (any trip after a plan's main shop) and count trips per calendar week, and the skill description no longer assumes a fixed week.
 ## 0.1.4 — 2026-11-09
 
 - Receipts: every line is marked planned or unplanned, including non-essential and holiday lines. The budget view shows the unplanned share, and the monthly summary tracks it with its trend. No recommendation before four weeks of data.

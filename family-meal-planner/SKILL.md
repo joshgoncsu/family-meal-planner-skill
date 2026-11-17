@@ -1,6 +1,6 @@
 ---
 name: family-meal-planner
-description: Plan a family's weekly meals and turn them into one store-split grocery list, track meat sales against price tiers, read grocery receipts into a spending log and price book, and run weekly and monthly budget reviews. Use this skill whenever someone wants to plan the week's dinners, school lunches or breakfasts, build or split a grocery list across stores, decide whether a meat sale is a good deal, log or categorize grocery receipts or Amazon orders, check grocery spending against a budget, cut grocery or snack costs, or get meal ideas from a pantry photo, even if they don't say "meal plan".
+description: Plan a family's meals and turn them into one store-split grocery list, track meat sales against price tiers, read grocery receipts into a spending log and price book, and run weekly and monthly budget reviews. Use this skill whenever someone wants to plan dinners, school lunches or breakfasts, build or split a grocery list across stores, decide whether a meat sale is a good deal, log or categorize grocery receipts or Amazon orders, check grocery spending against a budget, cut grocery or snack costs, or get meal ideas from a pantry photo, even if they don't say "meal plan".
 metadata:
   version: 0.1.5
 ---

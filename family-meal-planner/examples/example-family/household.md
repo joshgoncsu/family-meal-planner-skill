@@ -51,7 +51,7 @@
 
 ## Worth-the-drive threshold
 
-- Threshold: $10 per trip
+- Threshold: $10 in savings at that store
 
 ## Pace warning thresholds
 

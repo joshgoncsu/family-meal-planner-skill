@@ -19,7 +19,7 @@ Produce it on the first weekend of the month, in this order:
 1. **Headline**: spending vs budget for groceries plus household essentials, with the holiday line if active.
 2. **Split**: groceries, household essentials, non-essential, each by store.
    **Unplanned share**: unplanned spending (all categories, including non-essential and holiday lines) as a share of total spending, with its trend over recent months.
-3. **Trips**: planned shops per week and midweek exceptions (count and what they were for).
+3. **Trips**: shopping trips per calendar week, and extra trips (count and what they were for). An extra trip is any trip after a plan's main shop.
 4. **Online orders**: order count and the share that were household items available on the warehouse-club list.
 5. **Snacks**: snack share of grocery spending, the weekly trend, and the bulk vs single-serve split.
 6. **Prices**: the three biggest price changes from the price book.
@@ -51,7 +51,7 @@ Signals worth watching:
 | Store drift | Small top-up trips at a conventional supermarket |
 | Price creep | A staple is now cheaper at another core store |
 | Online orders | Household items ordered online that are cheaper at the warehouse club |
-| Midweek trips | The same item runs out every week; buy more of it on shopping day |
+| Extra trips | The same item runs out every week; buy more of it on shopping day |
 
 ## Improving the process
 
