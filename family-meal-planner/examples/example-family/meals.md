@@ -6,12 +6,12 @@
 
 | Meal | Protein | Usual sides | Kid-approved side | Prep ahead | Recipe book | Season |
 | --- | --- | --- | --- | --- | --- | --- |
-| Turkey chili | Ground turkey | Cornbread, green beans | Mild cheddar and tortilla chips | Thaw turkey Sunday night | Recipe book: Turkey chili | All year |
+| Turkey chili | Ground turkey | Cornbread, green beans | Mild cheddar and tortilla chips | Thaw turkey the night before | Recipe book: Turkey chili | All year |
 | Sheet-pan sausage and peppers | Smoked sausage | Roasted potatoes, roasted peppers and onions | Raw carrot sticks | None | Recipe book: Sheet-pan sausage and peppers | All year |
 | Baked ziti | Ground beef | Steamed broccoli | Garlic bread | Assemble in the morning, bake at dinner | Recipe book: Baked ziti | All year |
 | Pork stir-fry | Pork loin strips | Jasmine rice, stir-fried broccoli and carrots | Raw bell pepper strips with ranch | Slice pork in the morning | Recipe book: Pork stir-fry | All year |
 | Grilled chicken thighs | Chicken thighs | Baked potatoes, green beans | Corn on the cob | Marinate the night before | Recipe book: Grilled chicken thighs | All year (oven-roast when it's too cold to grill) |
-| Shrimp tacos | Shrimp, 16/20 count | Roasted peppers and onions | Plain cheese quesadilla | Thaw shrimp in the fridge Friday night | Recipe book: Shrimp tacos | All year |
+| Shrimp tacos | Shrimp, 16/20 count | Roasted peppers and onions | Plain cheese quesadilla | Thaw shrimp in the fridge the night before | Recipe book: Shrimp tacos | All year |
 
 ## Ingredients
 

@@ -1,4 +1,4 @@
-# Stock-up list
+# Monthly household list
 
 *Monthly household and paper goods. Compare by unit price (per sheet, per load, per ounce), not package price. Keep the full product name with its brand as the saved item (pricing and receipt matching use it); the short name is for lists.*
 

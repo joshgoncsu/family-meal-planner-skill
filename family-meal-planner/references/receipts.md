@@ -11,7 +11,7 @@ Read every receipt line by line. Each line gets one category, groceries get a su
 | Online grocery order | Order confirmation or screenshot |
 | Amazon | Monthly paste of order history (each adult's account) |
 
-A long app order can be several screenshots. Attach them all to one receipt and read them together.
+A long app order can be several screenshots. Attach them all to one receipt, but read them in small groups (see "Long receipts").
 
 Record per receipt: store, location if shown, date, subtotal, tax, total, whether it was a planned shop or an exception, and the line items.
 
@@ -23,6 +23,15 @@ Record per receipt: store, location if shown, date, subtotal, tax, total, whethe
 - Deposits, bag fees and tax: record separately; don't spread them into item prices.
 - Returns and refunds: negative lines in the same category as the original.
 - If a photo is unreadable, say which part and ask for a retake rather than guessing totals.
+
+## Long receipts
+
+Sending every photo or screenshot in one request can fail. Instead:
+
+1. Read the images in small groups, a few at a time.
+2. Tell each later group which lines were already copied, so they aren't read twice.
+3. If a group fails with a service error, retry it once.
+4. When all groups are read, check that the lines add up to the printed subtotal. Drop lines repeated where two photos overlap.
 
 ## Categories
 
@@ -36,7 +45,7 @@ Grocery subcategories (track at least these): snacks, school lunch items, work l
 
 ## Planned or unplanned
 
-Mark every line **planned** (on that week's list, or a known stock-up item) or **unplanned**, alongside its category. Unplanned covers all spending, including non-essential and holiday lines. Categories alone don't show impulse or off-list buying; this does.
+Mark every line **planned** (on that week's list, or a known monthly household list item) or **unplanned**, alongside its category. Unplanned covers all spending, including non-essential and holiday lines. Categories alone don't show impulse or off-list buying; this does.
 
 ## Review and the category map
 

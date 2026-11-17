@@ -1,12 +1,12 @@
 # Family Meal Planner skill
 
-A Claude skill that turns a family's grocery routine into one weekly loop: rate this week's meat sales, plan the week's meals, build one grocery list split by store, shop once, then log what was cooked and what was spent. Once a month it reviews spending against a budget and recommends at most one change, backed by evidence.
+A Claude skill that turns a family's grocery routine into one loop: rate this week's meat sales, plan a set of meals, build one grocery list split by store, shop once, check meals off as they're cooked and log what was spent, then plan again when the meals run out. Once a month it reviews spending against a budget and recommends at most one change, backed by evidence.
 
 It works best for families who shop at several stores, buy online often, and want to spend less without tracking every detail by hand.
 
 ## What it does
 
-- **Weekly meal plans:** dinners, breakfasts, school and work lunches, with at least one kid-approved side every night.
+- **Meal plans:** dinners, breakfasts, school and work lunches, with at least one kid-approved side every night.
 - **Store-split grocery lists:** each item goes to its cheapest regular store. A worth-the-drive rule keeps one-item detours off the route.
 - **Meat sale reports:** weekly ads rated against Stock up / Good / Normal / Skip price tiers built from USDA weekly retail ad surveys.
 - **Receipt tracking:** every line sorted into groceries, household essentials or non-essential, marked planned or unplanned, and reviewed by the family before it counts. Snacks are tracked separately. A price book is built from what you actually paid.
@@ -30,10 +30,10 @@ Ask Claude something like "Help me set up weekly meal planning for my family." T
 
 | File | What goes in it |
 | --- | --- |
-| `household.md` | People, servings, stores, budget, weekly rhythm |
+| `household.md` | People, servings, stores, budget, rhythm, shared page address |
 | `meals.md` | Dinner rotation and side list |
 | `staples.md` | Breakfasts, lunches, snacks |
-| `stock-up.md` | Monthly household and paper goods |
+| `household-list.md` | Monthly household list: household and paper goods |
 | `category-map.md` | Product → category answers from receipt review |
 | `price-tiers.md` | Tracked cuts and tier prices |
 | `price-book.md` | Prices paid, from receipts |
@@ -45,13 +45,15 @@ Keep your filled-in files somewhere private, such as a Claude Project or a priva
 
 ```
 family-meal-planner/
-  SKILL.md               The method: weekly loop, planning rules, list, budget, guardrails
+  SKILL.md               The method: the loop, planning rules, list, budget, guardrails
   references/
     price-tiers.md       Building tiers from USDA ad surveys and receipts
     receipts.md          Reading receipts and order histories, the price book
     stores.md            Store profiles, ad cycles, picking core stores
     reviews.md           Budgets, the monthly summary, recommendation rules
   templates/             Blank family files
+.github/workflows/
+  privacy-scan.yml       Gitleaks scan on every push and pull request
   examples/              A fictional family and an example week
 ```
 
@@ -62,7 +64,7 @@ family-meal-planner/
 
 ## Privacy
 
-This repo contains no real family data and must stay that way. A [gitleaks](https://github.com/gitleaks/gitleaks) pre-commit check blocks secrets, phone numbers, email addresses, street addresses and card-like numbers:
+This repo contains no real family data and must stay that way. A [gitleaks](https://github.com/gitleaks/gitleaks) scan checks for secrets, phone numbers, email addresses, street addresses and card-like numbers. It runs on every push and pull request (`.github/workflows/privacy-scan.yml`). To catch problems before you commit, add the pre-commit check too:
 
 ```
 pip install pre-commit

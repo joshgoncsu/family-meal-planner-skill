@@ -6,7 +6,11 @@
 2. Compare with the USDA food plans (Thrifty, Low-Cost, Moderate, Liberal), updated monthly by household member age (start at https://www.fna.usda.gov/research/cnpp/usda-food-plans, which links to the monthly cost-of-food reports). Adjust for household size and for high-cost areas (often +10% or more), then add household essentials.
 3. Set a first target between current spending and the Moderate plan, then step it down after two or three months if the family keeps up. Expect costs to rise as children reach their teens.
 
-Agree on separate holiday and hosting lines in advance for months like November and December.
+Agree on separate holiday and hosting lines in advance for months like November and December. A holiday line can have a target amount, or it can be **show-only**: track it and show it separately, with no target and no warning. Use show-only when the family would rather talk about the number than cap it.
+
+## Budget totals
+
+Compute budget totals live from reviewed receipts, grouped by each receipt's own date, in calendar weeks and calendar months. Don't keep a separate stored history total. A stored total goes stale, and the month-by-month view stops updating.
 
 ## Monthly summary (one page)
 
